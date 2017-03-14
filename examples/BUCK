@@ -1,0 +1,9 @@
+cxx_binary(
+  name = 'chaining_example',
+  srcs = [
+    'chaining_example.c',
+  ],
+  deps = [
+    '//:vorbis',
+  ],
+)

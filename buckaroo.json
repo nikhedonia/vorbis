@@ -1,0 +1,6 @@
+{
+  "name": "vorbis",
+  "dependencies": {
+    "ogg": "1.3.2"
+  }
+}
