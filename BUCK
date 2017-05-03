@@ -15,6 +15,10 @@ cxx_library(
   excludes = glob([
     'lib/psytune.c',
   ])),
+  preprocessor_flags = [
+    '-D_USE_MATH_DEFINES',
+    '-U__STRICT_ANSI__'
+  ],
   compiler_flags = [
     '-std=c11',
   ],
